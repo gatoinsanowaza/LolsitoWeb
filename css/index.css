@@ -66,3 +66,50 @@ nav {
 .nav-plus li {
     margin-right: 40PX;
 }
+
+
+/* MAIN */
+
+.welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    height: 90vh;
+}
+
+.welcome video{
+    margin-top: 80px;
+    width: 100%;
+    position: absolute;
+}
+.welcome .welcome_message {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.welcome_message img{
+    width: 400px;
+}
+
+.welcome_message button {
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: #00000000;
+    width: 180px;
+    height: 70px;
+    padding: 2px;
+    border: white 1px solid;
+}
+.welcome_message button a {
+    padding-top: 20px;
+    font-size: 1.1rem;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    background-color: #c6a96c;
+}
