@@ -162,3 +162,43 @@ nav {
     color: black;
     background-color: #c6a96c;
 }
+
+ /* SECCIÓN NOTICIAS DESTACADAS*/
+
+ .background-image {
+    padding: 8rem 48px;
+ }
+
+
+.background-image h2 {
+    color: #111111;
+    margin-left: 11rem;
+    font-family: "Lusitana", serif;
+    font-style: italic;
+    font-size: 32px;
+}
+
+.articles {
+    margin: 2rem 0px;
+}
+.articles img {
+    width: 447px;
+    height: 245px;
+}
+.articles ul {
+    width: 420px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.articles li {
+    margin-left: 4rem;
+    list-style: none;
+}
+
+.articles a {
+    text-decoration: none;
+    color: #111111;
+}
+
