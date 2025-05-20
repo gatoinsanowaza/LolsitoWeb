@@ -142,7 +142,7 @@ nav {
     width: 400px;
 }
 
-.welcome_message button {
+.main_button {
     margin: 0 auto;
     margin-top: 30px;
     background-color: #00000000;
@@ -151,7 +151,7 @@ nav {
     padding: 2px;
     border: white 1px solid;
 }
-.welcome_message button a {
+.main_button a {
     padding-top: 20px;
     font-size: 1.1rem;
     display: inline-block;
@@ -161,6 +161,53 @@ nav {
     text-align: center;
     color: black;
     background-color: #c6a96c;
+}
+
+/* SECCIÓN SEASON */
+
+.season {
+    height: 110vh;
+    background-image: url(./assets/imgs/season_brackground.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.season_message {
+    height: 400px;
+    width: 650px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.season_message h3{
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.season_message h2 {
+    font-size: 2.6rem;
+        font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.season_message button{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+    margin-top: 40px;
+    border: none;
 }
 
  /* SECCIÓN NOTICIAS DESTACADAS*/
@@ -202,3 +249,47 @@ nav {
     color: #111111;
 }
 
+
+/* SECCIÓN ESTILO */
+
+.estilo_1 {
+    height: 100vh;
+    background-image: url(./assets/imgs/estilo_background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.estilo_1 img {
+    width: 700px;
+    height: 700px;
+}
+
+.estilo_texto {
+    width: 700px;
+}
+.estilo_texto h3{
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.estilo_texto h2 {
+    font-size: 5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.estilo_texto button {
+    border: none;
+}
