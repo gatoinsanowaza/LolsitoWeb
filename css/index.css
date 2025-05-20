@@ -293,3 +293,21 @@ nav {
 .estilo_texto button {
     border: none;
 }
+
+.estilo_2 {
+    height: 120vh;
+    background-image: url(./assets/imgs/estilo_background_2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+
+.estilo_2 video {
+    border-radius: 50%;
+    outline: 1px solid #c6a96c;
+}
